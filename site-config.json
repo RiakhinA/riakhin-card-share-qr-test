@@ -16,6 +16,7 @@
   "contacts": [
     { "label": "WhatsApp", "icon": "whatsapp", "url": "https://wa.me/380631555181" },
     { "label": "Viber", "icon": "viber", "url": "viber://chat?number=%2B380631555181" },
+    { "label": "Telegram", "icon": "telegram", "url": "https://t.me/MariaKravchenkoArt" },
     { "label": "Позвонить", "icon": "phone", "url": "tel:+380631555181" }
   ],
   "linkedSections": [
