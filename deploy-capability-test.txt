@@ -1,0 +1,1 @@
+ChatGPT mobile workflow deploy capability check — 2026-10-01. Non-production preview branch only.
