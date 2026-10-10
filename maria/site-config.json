@@ -1,5 +1,6 @@
 {
   "photo": "portrait.jpg",
+  "publicCardUrl": "https://riakhin-card-preview.vercel.app/maria/",
   "phone": "+380631555181",
   "theme": {
     "ink": "#2B211B",

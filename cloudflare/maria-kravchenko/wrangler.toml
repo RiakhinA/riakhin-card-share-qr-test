@@ -1,0 +1,7 @@
+# NONPROD preparation only. DO NOT deploy without Owner release authorization.
+name = "maria-kravchenko"
+compatibility_date = "2026-10-10"
+workers_dev = true
+
+[assets]
+directory = "../../maria"

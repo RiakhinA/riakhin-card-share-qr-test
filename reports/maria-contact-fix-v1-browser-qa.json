@@ -1,0 +1,110 @@
+{
+  "baseline": "ab9dd3f9cb161a769341dc2fe8a41e0f0e4cd474",
+  "testMode": "local Chrome/Puppeteer",
+  "checks": [
+    {
+      "test": "CSS exact parity",
+      "status": "PASS",
+      "detail": "sha256 e8ee086fc9376440"
+    },
+    {
+      "test": "Mobile screenshot near-pixel parity",
+      "status": "FAIL",
+      "detail": "changed RGB channels=2923 of 913500"
+    },
+    {
+      "test": "RU content/name parity",
+      "status": "PASS",
+      "detail": "Мария Кравченко Артемьева"
+    },
+    {
+      "test": "No mobile overflow",
+      "status": "PASS"
+    },
+    {
+      "test": "Explicit Vercel interim canonical",
+      "status": "PASS"
+    },
+    {
+      "test": "Language ru",
+      "status": "PASS",
+      "detail": "Мария Кравченко Артемьева"
+    },
+    {
+      "test": "Real browser VCF download ru",
+      "status": "PASS",
+      "detail": "157897 bytes; 49c546c3d68e7b39"
+    },
+    {
+      "test": "Contact QR SVG payload parity ru",
+      "status": "PASS"
+    },
+    {
+      "test": "Contact QR compact vCard ru",
+      "status": "PASS",
+      "detail": "152 characters"
+    },
+    {
+      "test": "Web Share same full VCF ru",
+      "status": "PASS",
+      "detail": "maria-kravchenko.vcf 157897 49c546c3d68e7b39"
+    },
+    {
+      "test": "Web Share fallback same full VCF ru",
+      "status": "PASS"
+    },
+    {
+      "test": "Regular QR link ru",
+      "status": "PASS"
+    },
+    {
+      "test": "Language uk",
+      "status": "PASS",
+      "detail": "Марія Кравченко Артем'єва"
+    },
+    {
+      "test": "Real browser VCF download uk",
+      "status": "PASS",
+      "detail": "157907 bytes; ef1e34248cf32a43"
+    },
+    {
+      "test": "Contact QR SVG payload parity uk",
+      "status": "PASS"
+    },
+    {
+      "test": "Contact QR compact vCard uk",
+      "status": "PASS",
+      "detail": "152 characters"
+    },
+    {
+      "test": "Web Share same full VCF uk",
+      "status": "PASS",
+      "detail": "maria-kravchenko.vcf 157907 ef1e34248cf32a43"
+    },
+    {
+      "test": "Web Share fallback same full VCF uk",
+      "status": "PASS"
+    },
+    {
+      "test": "Regular QR link uk",
+      "status": "PASS"
+    },
+    {
+      "test": "Desktop width no overflow",
+      "status": "PASS"
+    },
+    {
+      "test": "Browser JS exceptions",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "errors": [
+    "Mobile screenshot near-pixel parity"
+  ],
+  "screenshotPaths": [],
+  "summary": {
+    "pass": 20,
+    "fail": 1
+  }
+}
