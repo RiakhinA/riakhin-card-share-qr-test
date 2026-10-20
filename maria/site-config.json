@@ -1,6 +1,6 @@
 {
   "photo": "portrait.jpg",
-  "publicCardUrl": "https://riakhin-card-preview.vercel.app/maria/",
+  "publicCardUrl": "https://riakhin-maria-v2-nonprod-20261020.vercel.app/ru/",
   "phone": "+380631555181",
   "theme": {
     "ink": "#2B211B",
@@ -147,5 +147,10 @@
         }
       ]
     }
-  ]
+  ],
+  "publicCardUrlsByLocale": {
+    "ru": "https://riakhin-maria-v2-nonprod-20261020.vercel.app/ru/",
+    "uk": "https://riakhin-maria-v2-nonprod-20261020.vercel.app/uk/"
+  },
+  "nonprodPreviewOnly": true
 }
